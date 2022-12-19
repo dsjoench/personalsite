@@ -1,0 +1,83 @@
+  section{
+    padding:3rem;
+    min-height: 100vh;
+    margin: 0 0 0 200px;
+    border:outset;
+    border-width: 1px;
+  }
+
+
+  h1{
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 3rem!important;
+    color: #343a40;
+    font-size: 6rem;
+    line-height: 5.5rem;
+    
+  }
+
+ 
+  h3 {
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    font-size:21px;
+    text-transform: uppercase;
+    color: #343a40;
+    
+  }
+
+  p1{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', serif;
+    font-size: 1.35rem;
+    margin-bottom: 1rem!important;
+    color: #868e96;
+
+  }
+  p2{
+
+    font-weight: 300;
+    font-family: 'Saira Extra Condensed', serif;
+    font-size: 1rem;
+    margin-bottom: 1rem!important;
+    color: #868e96;
+   
+  }
+
+  div.col-sm-4{
+    text-align: right;
+  }
+
+
+.flex-column {
+  
+    width:15rem;
+    height:100%;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    background: linear-gradient(45deg, rgb(147, 151, 199), lightblue);
+  }
+
+
+.about h1{
+
+  margin:25% 0 0 0;
+  font-size: 96px;
+  text-transform: uppercase;
+ 
+}
+
+
+@media screen and (max-width: 1000px) {
+  .flex-column {
+    display: none;
+  }
+  }
