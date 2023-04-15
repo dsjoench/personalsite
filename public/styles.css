@@ -1,38 +1,51 @@
-  section{
-    padding:3rem;
-    min-height: 100vh;
-    margin: 0 0 0 200px;
-    border:outset;
-    border-width: 1px;
+
+  @media screen and (min-width: 900px) {
+    section{
+      padding:3rem;
+      min-height: 100vh;
+      margin: 0 0 0 200px;
+      border:outset;
+      border-width: 1px;
+    }
   }
+  @media screen and (max-width: 899px) {
+    section{
+      padding:3rem 0 3rem 0;
+      min-height: 100vh;
+      margin: 0 0 0 0px;
+      border:outset;
+      border-width: 1px;
+    }
+  }
+
 
 
   h1{
     font-family: 'Saira Extra Condensed', serif;
-    font-weight: 700;
+    font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 3rem!important;
     color: #343a40;
-    font-size: 6rem;
+    font-size: 28px;
     line-height: 5.5rem;
-    
+
   }
 
- 
+
   h3 {
     font-family: 'Saira Extra Condensed', serif;
     font-weight: 700;
-    font-size:21px;
+    font-size:1rem;
     text-transform: uppercase;
     color: #343a40;
-    
+
   }
 
   p1{
     text-transform: uppercase;
     font-weight: 500;
     font-family: 'Saira Extra Condensed', serif;
-    font-size: 1.35rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem!important;
     color: #868e96;
 
@@ -44,16 +57,35 @@
     font-size: 1rem;
     margin-bottom: 1rem!important;
     color: #868e96;
-   
+
   }
 
   div.col-sm-4{
     text-align: right;
   }
 
+.about h1{
+
+  margin:25% 0 0 0;
+  font-size: 70px;
+  text-transform: uppercase;
+
+}
+.avatar {
+  margin-bottom: :3rem !important;
+}
+.social{
+  margin:10px;
+}
+
+.container{
+
+  margin-bottom:50px;
+}
+
+
 
 .flex-column {
-  
     width:15rem;
     height:100%;
     position: fixed;
@@ -64,20 +96,4 @@
     padding-right: 0.5rem;
     padding-left: 0.5rem;
     background: linear-gradient(45deg, rgb(147, 151, 199), lightblue);
-  }
-
-
-.about h1{
-
-  margin:25% 0 0 0;
-  font-size: 96px;
-  text-transform: uppercase;
- 
-}
-
-
-@media screen and (max-width: 1000px) {
-  .flex-column {
-    display: none;
-  }
   }

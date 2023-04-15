@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 
 function Card(props) {
     return (
-      <Container>
+      <Container className = "container">
       <Row>
         <Col sm={8}><h3>{props.title}</h3></Col>
         <Col sm={4}><p1>{props.date}</p1> </Col>
@@ -31,9 +31,9 @@ function Card(props) {
 
 
 
-     
-    
-          
+
+
+
 
 
     );
